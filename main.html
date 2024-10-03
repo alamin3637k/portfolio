@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD AL AMIN KHAN - Portfolio</title>
+
+    <!-- Google Fonts for a sleek modern look -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(45deg, #0f2027, #203a43, #2c5364);
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(to right, #ff512f, #dd2476);
+            animation: fadeInDown 1.5s ease;
+        }
+
+        header h1 {
+            font-size: 4rem;
+            font-weight: 700;
+            letter-spacing: 3px;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+
+        header h3 {
+            font-size: 1.5rem;
+            font-weight: 300;
+            letter-spacing: 1.5px;
+            color: #f3f3f3;
+        }
+
+        hr {
+            margin: 50px 0;
+            border: 0;
+            border-top: 2px solid rgba(255, 255, 255, 0.2);
+        }
+
+        /* Image Grid with 3D Animation */
+        .image-grid {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding: 40px 0;
+            flex-wrap: wrap;
+            animation: fadeInUp 2s ease-out;
+        }
+
+        .image-grid img {
+            width: 350px;
+            height: 500px;
+            object-fit: cover;
+            border-radius: 20px;
+            transition: transform 0.5s ease, box-shadow 0.5s ease;
+            box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1);
+        }
+
+        .image-grid img:hover {
+            transform: scale(1.1) rotateY(15deg);
+            box-shadow: 0 30px 50px rgba(255, 255, 255, 0.3);
+        }
+
+        /* Biography Section */
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(15px);
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            animation: fadeInUp 2.5s ease-out;
+        }
+
+        .container h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #ff9c00;
+            text-align: center;
+        }
+
+        .container p {
+            line-height: 1.8;
+            font-size: 1.1rem;
+            color: #f0f0f0;
+            margin-bottom: 20px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Futuristic Button */
+        .btn-primary {
+            display: inline-block;
+            padding: 15px 30px;
+            margin-top: 20px;
+            background: #ff512f;
+            color: white;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: center;
+            box-shadow: 0 10px 20px rgba(255, 81, 47, 0.5);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(255, 81, 47, 0.7);
+        }
+
+        /* Footer Section */
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            background: linear-gradient(to right, #ff512f, #dd2476);
+            position: relative;
+            z-index: 10;
+        }
+
+        footer h3 {
+            font-size: 1.2rem;
+            font-weight: 300;
+            color: #fff;
+        }
+
+        footer a {
+            margin: 10px;
+            color: white;
+            font-size: 1.5rem;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: #ff9c00;
+        }
+
+        footer img {
+            width: 30px;
+            height: 30px;
+            margin: 10px;
+        }
+
+        /* Animations */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h3>Portfolio</h3>
+        <h1>MD AL AMIN KHAN</h1>
+    </header>
+
+    <hr>
+
+    <div class="image-grid">
+        <img src="pp.jpg" alt="Profile Picture 1">
+        <img src="pp2.jpg" alt="Profile Picture 2">
+        <img src="pp3.jpg" alt="Profile Picture 3">
+    </div>
+
+    <div class="container">
+        <h1>MD Al Amin Khan: A Journey Through Life</h1>
+        <p>
+            MD Al Amin Khan, born on February 16, 2008, embarked on a remarkable journey that shaped his character and passions. His educational path took him from AK School and College during his early years to Bright School and College for grades 8 to 10. Later, he continued his studies at Dhaka College, pursuing HSC in Business Studies.
+        </p>
+        <p>
+            His academic achievements were impressive, earning GPA 5 in both the PSC and SSC exams. But his true passion lay in programming, where he honed his skills and explored the world of code.
+        </p>
+        <p>
+            MD Al Amin Khan's family, including his father, MD Jasim Uddin Khan, and his mother, Zumi Akter, provided unwavering support throughout his journey. They live in Dhaka, Bangladesh, though their hometown is Raipur.
+        </p>
+        <p>
+            Beyond academics, MD Al Amin Khan is an avid writer and a thinker. His favorite quote, "It's not over until I win," reflects his determination. Known affectionately as "Alamin" by friends, he continues to pursue excellence in all areas of his life.
+        </p>
+        <p>
+            He has traveled to various places, including a tour to Kolkata in 2023 and visits to Cox's Bazar, the National Martyrs' Monument, and Fantasy Kingdom. His journey is just beginning, as he strives to make a difference in the world.
+        </p>
+    </div>
+
+    <footer>
+        <h3>Contact Information</h3>
+        <p>Email: <strong>alamin3637k2@gmail.com</strong></p>
+        <p>Contact Number: <strong>+8801712057901</strong></p>
+        <div>
+            <a href="https://www.facebook.com/alamin.khan.420/" alt="Facebook">Facebook</a>
+            <a href="https://www.youtube.com/@alamin.khan.420" alt="YouTube">YouTube</a>
+            <a href="https://github.com/alamin3637" alt="GitHub">GitHub</a>
+        </div>
+    </footer>
+</body>
+</html>
